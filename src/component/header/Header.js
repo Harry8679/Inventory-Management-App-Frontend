@@ -2,7 +2,12 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <h1>Header</h1>
+    <div className="--pad header">
+        <div className="--flex-between">
+            <h3><span className="--fw-thin">Welcome, </span> <span className="--color-danger">Harry</span></h3>
+            <button className="--btn --btn-danger">Logout</button>
+        </div>
+    </div>
   )
 }
 
